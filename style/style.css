@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1970px;
+}
+a{
+    text-decoration: none;
+    font-family: Montserrat;
+    margin-top: 5px;
+    color: black;
+}
+a span{
+    color: #D1A954;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+h1{
+    font-family: Montserrat;
+    color: #222222;
+    font-weight: 300;
+}
+p{
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 9px;
+}
+header button{
+    padding: 7px 9px;
+    border: 1px solid #D1A954;
+    color: #D1A954;
+}
+
+.box-toi{
+    position: relative;
+}
+
+.box-toi svg{
+    position: absolute;
+    top: 230px;
+    right: 600px;
+}
+
+/* .box-wrap{
+    background-image: url(../assets/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 66.6%;
+    height: 445px;
+    position: relative;
+} */
+
+.title{
+    position: absolute;
+    background-color: rgba(209, 169, 84, 0.9);
+    margin-top: -200px;
+    margin-left: 0px;
+    padding: 40.3px 63.400000000000006px;
+}
+.title-wrap{
+    position: absolute;
+    background-color: rgba(209, 169, 84, 0.9);
+    margin-top: -197px;
+    margin-left: 0px;
+    padding: 39.3px 84.4px;
+}
+.title-wrapper{
+    position: absolute;
+    background-color: rgba(209, 169, 84, 0.9);
+    margin-top: -197px;
+    margin-left: 0px;
+    padding: 39.3px 56.400000000000006px;
+}
+
+
+.title-span{
+    display: block;
+}
